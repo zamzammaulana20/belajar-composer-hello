@@ -5,7 +5,7 @@ namespace bangzam\belajar{
         {
             
         }
-        public function sayhelo(string $name) : string {
+        public function sayhelo(string $name = "guest") : string {
            return "helo $name,my name is $this->name";
         }
     }
